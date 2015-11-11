@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Blake Allan</title>
+    <meta content=
+    "This is my simple about me page written for General Assembly. This page uses Twitter Bootstrap, other than that all the code featured was written by me"
+    name="description">
+    <link href="CSS/main.css" rel="stylesheet">
+    <link href="CSS/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container"><img class="img-responsive center-block logo"
+        src="IMG/logo.png">
+        </div>
+    </div>
+
+
+    <section class="bg-gainsboro" id="about">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-heading">About Me</h1>
+                <img class="img-responsive center-block me" src="IMG/me.jpg">
+
+                <p class="about-me">My name is Blake Allan. I am a student
+                currently residing in Bellingham, Washington. I have spent the
+                last few years working on a degree in computer science as well
+                as spending as much time as I can teaching myself new concepts
+                and pushing myself with personal projects.</p>
+
+
+                <p class="about-me">I spend time hiking, watching movies and
+                television shows, working on old Audis, fixing things,
+                tinkering with computers, writing code, playing video games and
+                hanging out with my dog.</p>
+
+
+                <p class="about-me">I am pursuing a position in General Assembly's
+                Web Development Immersive program this November. I have a strong desire to
+                acquire new skills and become an experienced Web Developer. An
+                accelerated learning environment is a perfect fit for my
+                personality and I tend to produce my best work in a fast paced
+                and challenging environment.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-white" id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-heading">Projects</h1>
+
+
+                <h2 class="section-subheading">Movie File Cleaner:</h2>
+
+
+                <p class="about-me">This was a project I came up with to brush
+                up on my python skills. It is a simple script that scans the
+                user's movie folder and deletes any files that are under a
+                certain file size to get rid of sample videos and uploader
+                advertisement videos, as well as file types that the user
+                doesn't want such as uploader advertisements in text files or
+                pictures. The program uses a TK GUI for the user to select the
+                directory, then show the amount of files scanned, bad files found,
+                and space to be cleared, and finally confirm that they would
+                like to delete. I am currently adding a feature that will also
+                clean up directory and file names so they follow a
+                "movie-title.year-produced.extension" format. I am achieving
+                this by using removing unnecessary characters from the file
+                name, then using Bing's API to search the file name on IMDB's
+                website. After the program gets the URL, I use a package called
+                IMDBpy that retrieves all the movie information by URL. I look
+                forward to completing this project over time. Check it out
+                here: <a href=
+                "https://github.com/blakewallan/TorrentCleaner/tree/master">Github</a></p>
+
+
+                <h2 class="section-subheading">blakewallan.com:</h2>
+
+
+                <p class="about-me">Learning to create this website has been a
+                very valuable experience, in fact it inspired me to pursue Web
+                Development. At the moment it uses Twitter bootstrap for the
+                navigation, buttons and layout. It also uses javascript for its
+                single page navigation. I started this project about a month
+                ago to dip my toe in the Web Development pond, and it has gone
+                through massive overhauls almost every week as I learn new
+                skills. As I said above, it is a constant work in progress and
+                I hope to see it improve over time. Check it out here: <a href=
+                "http://blakewallan.com/">blakewallan.com</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-city-picture" id="contact">
+        <div class="container">
+            <div class="row">
+                <h1 class="section-heading">Contact</h1>
+
+
+                <div class="col-md-6">
+                    <h2 class="section-subheading">Direct:</h2>
+
+
+                        <ul class="contact-info">
+                            <a href="tel:+1-206-390-0240">
+                                <li>Call: 206-390-0240</li>
+                            </a>
+
+                            <a href="mailto:blakewallan@gmail.com">
+                                <li>Email: blakewallan@gmail.com</li>
+                            </a>
+                        </ul>
+                </div>
+
+
+                <div class="col-md-6">
+                    <h2 class="section-subheading">Online:</h2>
+
+
+                        <ul class="contact-info">
+                            <a href="https://github.com/blakewallan">
+                                <li class="text-primary">Github</li>
+                            </a>
+
+
+                            <a href="https://linkedin.com/in/blakewallan">
+                                <li class="text-primary">Linkedin</li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

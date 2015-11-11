@@ -1,0 +1,70 @@
+.header {
+    width: auto;
+    background-image: url(../IMG/SeattleStorm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50em;
+}
+
+.html .body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    padding-top: 12em;   
+}
+
+.section-heading {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 4em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 2em;
+}
+
+.bg-gainsboro {
+    background-color: gainsboro;
+}
+
+.about-me {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.contact-info {
+    color: black;
+    list-style: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 5em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+li {
+    padding-top: 1.5em;
+}
+
+.section-subheading {
+    text-align: center;
+}
+
+.bg-city-picture {
+    background-image: url(../IMG/city-blur.jpg);   
+}
+
+
+
+.bg-white {
+    background-color: white;
+}
